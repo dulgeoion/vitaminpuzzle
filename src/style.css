@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
+
+/*
+font-family: 'Roboto Slab', serif;
+*/
+
+body {
+  background-color: #f1f1f1;
+  font-family: 'IBM Plex Serif', serif;
+  color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+  
+}
+
+.container {
+  margin: 50px 20% 0 20%;
+}
+
+ul.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 30%;
+  height: 40px;
+  align-items: center;
+}
+
+ul.navbar  li {
+  list-style-type: none;
+  /* margin: 0 3%; */
+  background-color: #ddd;
+  padding: 0px 5%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+ul.navbar  li:hover {
+  background-color: #aaaaaa;
+}
+
+button {
+  height: 28px;
+  background-color: #ccc;
+  border-style: solid;
+  border-color: #aaaaaa69;
+  border-width: 1px;
+  border-radius: 1px;
+  /* margin: 5px 10px; */
+  color: #444;
+}
+
+input {
+  /* margin: 5px 10px; */
+  height: 25px;
+  border-radius: 1px;
+  border-style: solid;
+  border-color: #aaaaaa69;
+  border-width: 1px;
+  padding-left: 10px;
+}
+
+.task1 {
+  display: flex;
+
+}
+
+.task1a, .task1b {
+  width: 50%;
+}
+
+.notice {
+  color: #aaaaaa;
+  font-size: 12px;
+}
+
+p.error {
+  color: red;
+  background-color: #ff000038;
+  object-fit: cover;
+  width: fit-content;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+
+.swapping-color {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.swapping-color ul {
+  margin-right: 10px;
+}
+.swapping-color ul li {
+  list-style-type: none;
+}
